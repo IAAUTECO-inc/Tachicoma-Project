@@ -125,3 +125,11 @@ license.  It's purpose is a logging system.
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+>
+> Project Tachikoma (formerly Lemonade)
+Copyright 2026 IA_AUT_ECO
+
+This project incorporates elements from:
+- FreeBSD Project (Kernel primitives) - BSD 2-Clause License
+- AEGIS Framework (Compliance logic) - Sovereign License
+- [Liste des autres dépendances Go/Java/C++ auditées]
