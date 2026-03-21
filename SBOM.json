@@ -1,0 +1,80 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e070666-085e-4edc-a96c-9a38586221c5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-21T09:00:00Z",
+    "tools": [
+      {
+        "vendor": "IA_AUT_ECO",
+        "name": "AEGIS-Audit-Tool",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "group": "fr.ia-aut-eco",
+      "name": "tachikoma-core",
+      "version": "1.0.0-alpha",
+      "type": "application",
+      "description": "Orchestrateur souverain pour la robotique inclusive",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "group": "org.freebsd",
+      "name": "kernel-primitives",
+      "version": "14.1-RELEASE",
+      "description": "Primitives de sécurité (Jails, Capsicum)",
+      "type": "library",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "group": "fr.ia-aut-eco",
+      "name": "aegis-hearthfire",
+      "version": "1.2.0",
+      "description": "Cœur de sécurité déterministe (C++)",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Sovereign AI License"
+          }
+        }
+      ]
+    },
+    {
+      "group": "org.golang",
+      "name": "crypto",
+      "version": "v0.21.0",
+      "description": "Primitives cryptographiques pour communications Agora",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    }
+  ]
+}
